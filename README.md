@@ -53,3 +53,20 @@ VITE_FIREBASE_STORAGE_BUCKET="SEU_STORAGE_BUCKET_AQUI"
 VITE_FIREBASE_MESSAGING_SENDER_ID="SEU_MESSAGING_SENDER_ID_AQUI"
 VITE_FIREBASE_APP_ID="SEU_APP_ID_AQUI"
 ```
+### 3. Instalação e Execução
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+1. Instale as dependências do projeto:
+```
+npm install
+```
+2. Inicie o servidor de desenvolvimento:
+```
+npm run dev
+```
+3. Inicie o servidor de desenvolvimento:
+```
+npm ru dev
+```
