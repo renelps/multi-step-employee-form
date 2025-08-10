@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Colaboradores 🧑‍💻
+# Sistema de Gerenciamento de Colaboradores 🧑‍💻 | Desafio Técnico para Desenvolvedor React - Flugo
 
 Este é um sistema de gerenciamento de colaboradores, uma aplicação web que permite visualizar, adicionar e gerenciar informações de funcionários. O projeto é um Single Page Application (SPA) construído com **React**, utilizando uma abordagem de formulário em múltiplos passos para o cadastro de novos colaboradores e o **Firebase** como backend para persistência de dados.
 
