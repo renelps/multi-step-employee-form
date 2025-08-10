@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { FaAngleLeft, FaGreaterThan, FaUser } from 'react-icons/fa';
 import type { SxProps, Theme } from '@mui/system';
