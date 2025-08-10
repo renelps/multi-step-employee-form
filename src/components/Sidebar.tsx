@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material';
 import { FaAngleLeft, FaGreaterThan, FaUser } from 'react-icons/fa';
 import type { SxProps, Theme } from '@mui/system';
 import { Link } from 'react-router-dom';
-
+import IconFlugo from "../../public/iconFlugo.png";
 interface SidebarProps {
   setSidebarOpen: React.Dispatch<React.SetStateAction<boolean>>;
   sidebarOpen: boolean;
@@ -27,7 +27,19 @@ export const Sidebar: React.FC<SidebarProps> = ({ setSidebarOpen, sidebarOpen, s
         paddingTop: "5px"
       }}
     >
-      <Typography variant="h6" sx={{ fontWeight: "bold" }}>Flugo</Typography>
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center"
+        }}
+      >
+        <img
+          src={IconFlugo}
+          alt="User Avatar"
+          style={{ width: "35px", height: "35px"}}
+          />
+        <Typography variant="h6" sx={{ fontWeight: "bold" }}>Flugo</Typography>
+      </Box>
 
       <Box sx={{
         display: "flex",
