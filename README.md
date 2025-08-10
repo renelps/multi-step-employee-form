@@ -5,6 +5,13 @@ Este é um sistema de gerenciamento de colaboradores, uma aplicação web que pe
 O design da interface é responsivo e foi implementado usando a biblioteca de componentes **Material-UI (MUI)**.
 
 ---
+## Deploy 🌐
+
+Este projeto está disponível online. Você pode acessá-lo aqui:
+
+[https://multi-step-employee-form.vercel.app](https://multi-step-employee-form.vercel.app)
+
+---
 
 ## Funcionalidades ✨
 
@@ -68,5 +75,13 @@ npm run dev
 ```
 3. Inicie o servidor de desenvolvimento:
 ```
-npm ru dev
+npm run dev
 ```
+A aplicação estará disponível em http://localhost:5173
+
+### Scripts Disponíveis 🛠️
+
+* **npm run dev:** Inicia o servidor de desenvolvimento com o Vite.
+* **npm run build:** Compila o projeto para produção.
+* **npm run preview:** Inicia um servidor local para visualizar a build de produção.
+* **npm run lint:** Executa a ferramenta de linting para verificar a qualidade do código.
