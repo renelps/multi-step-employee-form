@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material';
 import { FaAngleLeft, FaGreaterThan, FaUser } from 'react-icons/fa';
 import type { SxProps, Theme } from '@mui/system';
 import { Link } from 'react-router-dom';
-import IconFlugo from "../../public/iconFlugo.png";
+import IconFlugo from "../assets/iconFlugo.png";
 interface SidebarProps {
   setSidebarOpen: React.Dispatch<React.SetStateAction<boolean>>;
   sidebarOpen: boolean;

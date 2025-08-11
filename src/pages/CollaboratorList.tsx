@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../services/firebase';
-
+import AvatarImage from "../assets/avatar.png";
 const theme = createTheme({
   palette: {
     primary: {
@@ -128,8 +128,18 @@ export default function Colaboradores() {
                   <TableRow key={collaborator.id} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                     <TableCell>
                       <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <Avatar src={collaborator.avatar} alt={collaborator.title}>
-                          {collaborator.avatar}
+                        <Avatar>
+                          <Box
+                            component="img"
+                            sx={{
+                              width: '100%',
+                              height: 'auto',
+                              borderRadius: 2,
+                              boxShadow: 3,
+                            }}
+                            src={AvatarImage}
+                            alt="Minha Imagem"
+                          />
                         </Avatar>
                         {collaborator.title}
                       </Box>

@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import AvatarImage from "../assets/avatar.png";
 
 export const Header = () => {
   return (
@@ -23,7 +24,17 @@ export const Header = () => {
         marginRight: "40px",
         marginTop: "15px"
       }}>
-
+        <Box
+          component="img"
+          sx={{
+            width: '100%',
+            height: 'auto',
+            borderRadius: 2,
+            boxShadow: 3,
+          }}
+          src={AvatarImage}
+          alt="Minha Imagem"
+        />
       </Box>
     </Box>
   );
