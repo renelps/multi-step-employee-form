@@ -67,7 +67,7 @@ VITE_FIREBASE_APP_ID="SEU_APP_ID_AQUI"
 
 1. Clone o repositório:
 ```
-git clone [https://github.com/renelps/multi-step-employee-form.git](https://github.com/renelps/multi-step-employee-form.git)
+git clone https://github.com/renelps/multi-step-employee-form.git
 cd multi-step-employee-form
 ```
 2. Instale as dependências do projeto:
