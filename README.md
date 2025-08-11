@@ -4,6 +4,9 @@ Este é um sistema de gerenciamento de colaboradores, uma aplicação web que pe
 
 O design da interface é responsivo e foi implementado usando a biblioteca de componentes **Material-UI (MUI)**.
 
+![Tela Inicial](./src/assets/home-screen.jpeg)
+![Tela Formulário Básico](./src/assets/basic-form-screen.jpeg)
+![Tela Formulário Profissional](./src/assets/professional-form-screen.jpeg)
 ---
 ## Deploy 🌐
 
